@@ -1,0 +1,8 @@
+Holaap, explicacion de lo que hace el docker.sh
+
+install -m 0755 -d /etc/apt/keyrings
+
+Basicamente, instala e indica el directorio donde estara las claves gpg y  "-m 0755" asigna permisos
+
+chmod a+r /etc/apt/keyrings/docker.asc 
+ da permiso de lectura
