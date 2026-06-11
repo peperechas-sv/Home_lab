@@ -1,5 +1,3 @@
-
-#Instalamos el taiscale
 #!/bin/bash
 set -e #parar
 curl --version
@@ -19,4 +17,4 @@ apt-get update
 apt-get install tailscale -y
 tailscale up
 tailscale ip -4
-echo" Tu ip en la vpn es: $(tailscale ip -4)"
+echo "Tu ip en la vpn es: $(tailscale ip -4)"
