@@ -33,6 +33,7 @@ sudo ./servicios/disk_servicios.sh
 sudo ./servicios/docker.sh
 ```
 <p>En este punto luego de hacer la instalacion, podes recargar tu terminal un</p>
+
 ```bash
 source ~/.zshrc
 ```
