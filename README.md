@@ -37,6 +37,7 @@ sudo ./servicios/docker.sh
 source ~/.zshrc
 ```
 <p> o si ocupas bash</p>
+
 ```bash
 source ~/.bashrc
 ```
@@ -44,6 +45,7 @@ source ~/.bashrc
 ```bash
 sudo ./servicios/ollama.sh
 ```
+
 **web_ui.sh**
 ```bash
 sudo ./servicios/web_ui.sh
