@@ -14,40 +14,4 @@ Powered by | Peperechas_dev <br>
 <img width="831" height="555" alt="VPN" src="https://github.com/user-attachments/assets/ed666baf-38f8-4364-9213-449e6077d5a8" />
 
 
-## Metodo de patita 
-Con una instalacion simple de los .sh individuales se hace asi: 
-**Permisos**
-```bash
-sudo chmod +x servicios/*.sh
-```
-**tailscale.sh**
-```bash
-sudo ./servicios/tailscale.sh
-```
-**disk_servicios.sh**
-```bash
-sudo ./servicios/disk_servicios.sh
-```
-**docker.sh**
-```bash
-sudo ./servicios/docker.sh
-```
-<p>En este punto luego de hacer la instalacion, podes recargar tu terminal un</p>
-
-```bash
-source ~/.zshrc
-```
-<p> o si ocupas bash</p>
-
-```bash
-source ~/.bashrc
-```
-**ollama.sh**
-```bash
-sudo ./servicios/ollama.sh
-```
-
-**web_ui.sh**
-```bash
-sudo ./servicios/web_ui.sh
-```
+## Agregar que hay dos formas de hacerlo, la manera individual de cada servicio (a patita) y la rapida que se encuentra en ("instalacion completa")
